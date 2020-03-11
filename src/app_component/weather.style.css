@@ -1,0 +1,28 @@
+body{
+    background-image: url(https://openweathermap.org/themes/openweathermap/assets/img/new-history-forecast-bulk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+.container {
+    margin-top: 1.2rem;
+}
+  
+.container input,
+.container ::-webkit-input-placeholder {
+    color: white !important;
+}
+.container input:focus {
+    background-color: transparent;
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 2px solid #FFCC00;
+}
+
+.container h1,
+.container h3,
+.container h4,
+.container h5{
+    color: black;
+}
